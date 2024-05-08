@@ -1,5 +1,5 @@
 # Cirrhosis_prediction
-This repository contains a Cirrhosis patient survival outcome challenge from Kaggle.
+This repository contains a Kaggle challenge focused on survival outcomes for Cirrhosis patients.
 ------
 
 ## Overview

@@ -21,7 +21,7 @@ The data provided for this challenge is synthetic and originates from a deep lea
 * **Standardization:** Standardized numerical features to bring them to the same scale using StandardScaler from scikit-learn.
 
 #### Data Visualization
-![download](https://colab.research.google.com/drive/1vPtJxi-lAOCBEb3tdzdRzoh1LPqOvO9e#scrollTo=kdS6W-Lu1k60&line=2&uniqifier=1)
+![download](./images/cirrhosis_pairplot.png)
 
 ### Problem Formulation
   * Input: CSV file of features; Output: Predicted probabilities for each of the three possible outcomes: Status_C, Status_CL, and Status_D.
@@ -31,13 +31,13 @@ The data provided for this challenge is synthetic and originates from a deep lea
 
 ### Training
 The training process utilized the scikit-learn library within a Jupyter Notebook environment for code execution and analysis.
-![Logistic Regression Learning curve](https://github.com/haydenBustos/Cirrhosis_prediction/assets/89792441/4406b287-b9e4-4c12-b564-ef65eefcb5fb)
+![Logistic Regression Learning curve](./images/log_reg_lc.png)
 
 
 ### Performance Comparison
 
 Accuracy measures the overall correctness of the predictions, precision quantifies the ratio of correctly predicted positive observations to the total predicted positives, recall measures the ratio of correctly predicted positive observations to the actual positives, and F1-score provides a harmonic mean of precision and recall.
-*  ![Random Forest Learning Curve](https://github.com/haydenBustos/Cirrhosis_prediction/assets/89792441/2066a210-d6a9-429d-a81c-8aa8af90f479)
+*  ![Random Forest Learning Curve](./images/random_for_lc.png)
 
 
 ### Future Work

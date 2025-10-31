@@ -1,21 +1,27 @@
-# Data folders
+# Data (do not commit raw or large files)
 data/raw/
 data/interim/
-data/processed/  
-  
-# Models and outputs
+data/processed/
+*.csv
+*.xlsx
+
+# Models / outputs
 models/*.pkl
 reports/figs/
-*.log  
-  
-# Python cache and virtual environments
+*.log
+
+# Python
 __pycache__/
 .ipynb_checkpoints/
-.env
 .venv/
-*.egg-info/  
-  
-# OS / IDE
+.env
+*.egg-info/
+
+# Tools / IDE
+.kaggle/
 .vscode/
-.DS_Store  
-  
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

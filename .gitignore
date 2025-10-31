@@ -1,0 +1,21 @@
+# Data folders
+data/raw/
+data/interim/
+data/processed/  
+  
+# Models and outputs
+models/*.pkl
+reports/figs/
+*.log  
+  
+# Python cache and virtual environments
+__pycache__/
+.ipynb_checkpoints/
+.env
+.venv/
+*.egg-info/  
+  
+# OS / IDE
+.vscode/
+.DS_Store  
+  

@@ -44,17 +44,16 @@ Accuracy measures the overall correctness of the predictions, precision quantifi
 Model Selection: Experiment with more advanced machine learning algorithms or ensemble methods, such as gradient boosting machines (e.g., XGBoost, LightGBM) or neural networks, to improve predictive performance.
 
 ### Overview of files in repository
-  * model_eval.ipynb: This notebook contains code for evaluating the performance of the trained models. It includes functions for data cleaning, preprocessing, model training, evaluation, and visualization.
 
-### Software Setup
-* Standard Python libraries (e.g., pandas, numpy, scikit-learn, matplotlib)
-* Some other packages used: scipy, sklearn.preprocessing.
 
-### Data
-[Download the Kaggle dataset.](https://www.kaggle.com/competitions/playground-series-s3e26/data)
+### 🧩 Data Access
+The Cirrhosis dataset is available on Kaggle:
+[Playground Series – S3E26](https://www.kaggle.com/competitions/playground-series-s3e26)
 
-### Training
-The 'fit' method is called, the model then learns the optimal parameters based on the training data
+To download:
+```bash
+kaggle competitions download -c playground-series-s3e26 -p data/raw
+```
 
 ## Citations
 * [Kaggle Challenge link.](https://www.kaggle.com/competitions/playground-series-s3e26/data)

@@ -1,10 +1,9 @@
-# Data Instructions
+# Data Folder
 
-This project uses the **Cirrhosis Prediction Dataset** from Kaggle:
-[Kaggle Project Link](https://www.kaggle.com/competitions/playground-series-s3e26/data)
+Raw data is **not stored** in this repository.
 
-## Download steps
-
-1. Install the Kaggle API:
-   ```bash
-   pip install kaggle
+To reproduce:
+```bash
+kaggle competitions download -c playground-series-s3e26 -p data/raw
+unzip -o data/raw/*.zip -d data/raw
+python3 -m src.data_prep --in data/raw --out data/processed
